@@ -1,0 +1,17 @@
+.list ul li{
+    list-style: none;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    background-color: lightgray;
+    position: relative;
+    
+}
+.list ul li input{ border: none; background-color: lightgray;font-size: large; }
+.list ul li input:focus{outline: none;}
+.list ul{ margin: 0; padding: 0;}
+.list ul li span .fontIconDelete { position: absolute; right:15px; margin: auto;}
+

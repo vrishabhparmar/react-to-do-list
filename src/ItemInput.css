@@ -1,0 +1,35 @@
+
+.InputItem form input{
+    align-self: center;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+   
+    
+}
+.InputItem form input:focus{
+   outline: none;
+}
+.InputItem form input::placeholder
+{
+   
+}
+
+.InputItem form button
+{
+    background-color: #FF7F50;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+    width: 100px;
+    font-size: large;
+    color: white;
+}
+.InputItem form button:focus
+{
+    outline: none;
+}
